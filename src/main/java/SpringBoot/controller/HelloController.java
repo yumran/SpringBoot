@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
-        int j = 0;
         return "hello spring boot";
     }
 }
